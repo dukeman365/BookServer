@@ -1,0 +1,21 @@
+{
+  "name": "bookserver",
+  "version": "0.0.0",
+  "description": "A server to store books",
+  "main": "BookServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.0.2",
+    "express": "~4.0.0",
+    "mongodb": "^3.1.8",
+    "mongoose": "~3.6.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/dukeman365/BookServer"
+  },
+  "author": "Robinson Cook",
+  "license": "ISC"
+}
