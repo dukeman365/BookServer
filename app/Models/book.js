@@ -1,6 +1,12 @@
-//app/models/bear.js
+//app/models/book.js
 
 //import mongoose
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
-//set default connection
+
+//create book Schema
+var BookSchema = new Schema({
+  name: String
+});
+
+module.exports = mongoose.model('Book', BookSchema);
