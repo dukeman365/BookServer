@@ -1,25 +1,27 @@
 {
   "name": "bookserver",
-  "version": "0.0.0",
-  "description": "A server to store books",
-  "main": "BookServer.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "1.0.0",
+  "description": "A server for storing books",
+  "main": "server.js",
   "dependencies": {
-    "body-parser": "^1.18.3",
     "bson": "file:node_modules/bson",
     "express": "^4.16.4",
     "mongodb": "^3.1.8",
     "mongoose": "^3.9.7"
   },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
   "repository": {
     "type": "git",
-    "url": "github.com/dukeman365/BookServer"
+    "url": "git+https://github.com/dukeman365/BookServer.git"
   },
   "author": "Robinson Cook",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^1.18.5"
-  }
+  "bugs": {
+    "url": "https://github.com/dukeman365/BookServer/issues"
+  },
+  "homepage": "https://github.com/dukeman365/BookServer#readme"
 }
