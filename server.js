@@ -12,7 +12,7 @@ var mongoose = require('mongoose');
 
 //connections
 
-mongoose.connect('mongodb://localhost/books');
+mongoose.connect('mongodb://localhost/dbname');
 
 var connection = mongoose.connection;
 
